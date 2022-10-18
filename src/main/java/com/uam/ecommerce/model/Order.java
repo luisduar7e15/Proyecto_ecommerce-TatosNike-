@@ -19,5 +19,6 @@ public class Order {
     private String name;
     private double total;
 
+    @OneToMany (mappedBy = "idOrder")
     private List<DetalleOrder> detalles;
 }

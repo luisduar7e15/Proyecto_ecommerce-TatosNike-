@@ -18,6 +18,8 @@ public class DetalleOrder {
     private Long id;
     private Long idProducto;
     private int count;
-    private Order order;
+
+    //mismo tipo de la llave en order
+    private Long idOrder;
 
 }

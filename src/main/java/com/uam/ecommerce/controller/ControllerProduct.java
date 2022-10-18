@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/product")
-//@CrossOrigin
+@CrossOrigin
 public class ControllerProduct {
 
     @Qualifier("serviceProduct")
