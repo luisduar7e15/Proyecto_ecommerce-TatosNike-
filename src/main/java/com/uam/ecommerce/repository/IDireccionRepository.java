@@ -1,9 +1,9 @@
 package com.uam.ecommerce.repository;
 
-import com.uam.ecommerce.model.Order;
+import com.uam.ecommerce.model.Direccion;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IOrderRepository extends JpaRepository<Order, Long> {
+public interface IDireccionRepository extends JpaRepository <Direccion, Long> {
 }

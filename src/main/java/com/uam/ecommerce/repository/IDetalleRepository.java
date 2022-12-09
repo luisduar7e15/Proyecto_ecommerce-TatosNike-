@@ -1,10 +1,12 @@
 package com.uam.ecommerce.repository;
 
-import com.uam.ecommerce.model.Product;
+import com.uam.ecommerce.model.Detalle;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-@Repository
-public interface IProductRepository extends JpaRepository<Product, Long> {
+import java.util.UUID;
 
+@Repository
+public interface IDetalleRepository extends JpaRepository <Detalle, UUID>
+{
 }
